@@ -40,5 +40,5 @@ app.use((req, res) => {
   res.status(404).send('Endpoint not found');
 });
 
-const PORT = process.env.PORT || 7860;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
